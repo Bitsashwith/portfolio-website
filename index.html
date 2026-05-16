@@ -7,42 +7,72 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
         <h1>Ashwitha</h1>
-        <p>B.Tech Student | Future Software Engineer</p>
+        <p>B.Tech Student | Web Developer | AI Learner</p>
     </header>
 
-    <section>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
         <h2>About Me</h2>
 
         <p>
-            I am learning Web Development, AI and GitHub.
-            This is my first portfolio website project.
+            I am a Computer Science student learning
+            Web Development, Artificial Intelligence,
+            Git and GitHub.
         </p>
     </section>
 
-    <section>
+    <section id="skills">
         <h2>Skills</h2>
 
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>GitHub</li>
-        </ul>
+        <div class="card">
+            HTML
+        </div>
+
+        <div class="card">
+            CSS
+        </div>
+
+        <div class="card">
+            JavaScript
+        </div>
+
+        <div class="card">
+            GitHub
+        </div>
     </section>
 
-    <section>
+    <section id="projects">
         <h2>Projects</h2>
 
-        <p>Portfolio Website</p>
+        <div class="project">
+            Portfolio Website
+        </div>
+
+        <div class="project">
+            Upcoming AI Projects
+        </div>
     </section>
 
-    <button onclick="showMessage()">
-        Click Me
-    </button>
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: yourmail@gmail.com</p>
+
+        <button onclick="showMessage()">
+            Say Hello
+        </button>
+    </section>
 
     <script src="script.js"></script>
 

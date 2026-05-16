@@ -1,3 +1,3 @@
 function showMessage() {
-    alert("Welcome to Ashwitha Portfolio Website!");
+    alert("Thank you for visiting my portfolio website!");
 }
